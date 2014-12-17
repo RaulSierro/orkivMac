@@ -1,0 +1,26 @@
+FormaCuentaDetalles:
+
+<FormaCuentaDetalles>:
+    orientation: "vertical"
+    height: "200dp"
+    size_hint_y: None
+    GridLayout:
+        cols: 2
+        row_default_height: "40dp"
+        row_force_default: True
+        spacing: "10dp"
+        padding: "10dp"
+        Label:
+            text: "Servidor"
+        TextInput:
+        Label:
+            text: "Nombre de Usuario"
+        TextInput:
+        Label:
+            text: "Password"
+        TextInput:
+            password: True
+    Button:
+        size_hint_y: None
+        height: "40dp"
+        text: "Login"
